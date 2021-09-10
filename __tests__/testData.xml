@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SimpleTest" time="10.064" tests="5" errors="1" skipped="1" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspace/appinsights-surefire-action-testproject/target/test-classes:/workspace/appinsights-surefire-action-testproject/target/classes:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.21/kotlin-stdlib-1.4.21.jar:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.21/kotlin-stdlib-common-1.4.21.jar:/workspace/m2-repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/workspace/m2-repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/workspace/m2-repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/workspace/m2-repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/workspace/m2-repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/gitpod/.sdkman/candidates/java/11.0.12.fx-zulu/lib"/>
+    <property name="sun.java.command" value="/workspace/appinsights-surefire-action-testproject/target/surefire/surefirebooter11929477979519604008.jar /workspace/appinsights-surefire-action-testproject/target/surefire 2021-09-10T16-27-08_237-jvmRun1 surefire13600809171641254359tmp surefire_012534367087239652929tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspace/appinsights-surefire-action-testproject/target/test-classes:/workspace/appinsights-surefire-action-testproject/target/classes:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.21/kotlin-stdlib-1.4.21.jar:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.21/kotlin-stdlib-common-1.4.21.jar:/workspace/m2-repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/workspace/m2-repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/workspace/m2-repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/workspace/m2-repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/workspace/m2-repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/gitpod"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/home/gitpod/.sdkman/candidates/java/11.0.12.fx-zulu"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspace/appinsights-surefire-action-testproject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.50+19-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspace/appinsights-surefire-action-testproject/target/surefire/surefirebooter11929477979519604008.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+7-LTS"/>
+    <property name="user.name" value="gitpod"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-1046-gke"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.50+19-CA"/>
+    <property name="localRepository" value="/workspace/m2-repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="/workspace/appinsights-surefire-action-testproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.12+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="should fail gracefully" classname="SimpleTest" time="0.033">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Oh noes!
+	at SimpleTest.should fail gracefully(SimpleTest.kt:19)
+]]></failure>
+  </testcase>
+  <testcase name="should fail in unexpected ways" classname="SimpleTest" time="0.002">
+    <error type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Don't try this at home!
+	at SimpleTest.should fail in unexpected ways(SimpleTest.kt:24)
+]]></error>
+  </testcase>
+  <testcase name="should pass quickly" classname="SimpleTest" time="0.001"/>
+  <testcase name="should pass slowly" classname="SimpleTest" time="10.001"/>
+  <testcase name="should not be run" classname="SimpleTest" time="0">
+    <skipped message="public final void SimpleTest.should not be run() is @Disabled"/>
+  </testcase>
+</testsuite>
