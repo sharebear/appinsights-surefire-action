@@ -1,8 +1,8 @@
-import * as fs from 'fs';
-import parseSurefireXML from '../src/parser';
+import * as fs from 'fs'
+import parseSurefireXML from '../src/parser'
 
 test('smoke test example file', async () => {
-  const data = await fs.promises.readFile(__dirname + '/testData.xml');
+  const data = await fs.promises.readFile(__dirname + '/testData.xml')
   const result = await parseSurefireXML(data)
   expect(result).toHaveLength(5)
 })
