@@ -1,5 +1,7 @@
 import * as core from '@actions/core'
 import * as glob from '@actions/glob'
+import * as fs from 'fs'
+import parseSurefireXML from './parser'
 
 async function run(): Promise<void> {
   try {
@@ -12,7 +14,9 @@ async function run(): Promise<void> {
       globOptions
     )
     for await (const file of globber.globGenerator()) {
-      core.info(file)
+      const data = await fs.promises.readFile(file)
+      const result = await parseSurefireXML(data)
+      core.info(JSON.stringify(result))
     }
   } catch (error) {
     if (error instanceof Error) {
