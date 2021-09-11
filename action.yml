@@ -1,11 +1,15 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Surefire App Insights Reporter'
+description: 'Report Surefire test reports to Azure Application Insights'
+author: 'Jonathan Share'
 inputs:
-  milliseconds: # change this
-    required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+  report_paths:
+    required: false
+    description: 'glob to match xml Surefire reports'
+    default: '**/surefire-reports/TEST-*.xml'
+  follow-symbolic-links:
+    required: false
+    description: 'Indicates whether to follow symbolic links'
+    default: 'true'
 runs:
   using: 'node12'
   main: 'dist/index.js'
